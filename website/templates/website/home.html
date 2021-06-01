@@ -1,0 +1,116 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block content %}
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'website/home.css' %}">
+<div  class="content_c">
+
+    
+        
+    <h1 > <strong><span >irro'</span>keys</strong> in few words</h1>
+     
+    <p data-aos="fade-up-right">
+        <strong><span >irro'</span>keys</strong> is a research & development startup in high tech technologies. Our main objective is 
+    to provide and offer our partners innovative technological solutions in line with market and companies needs.
+    </p>
+
+    <p data-aos="fade-up-left">
+        Our multidisciplinary teams, made up of phds, research engineers and software developers, will guarantee an excellent 
+        work to ensure better profitability, quality and efficiency for our partners.
+    
+    </p>
+
+  
+    
+    
+    
+
+
+<button data-aos="flip-left" onclick="location.href='/solutions'"; href="{% url 'solutions' %}" class="learn_more">Learn more +</button>   
+</div>
+
+<div class="content_c2">
+    <h1 data-aos="flip-up">Our expertise area</h1>
+    
+        
+        <p data-aos="zoom-in">
+            We mainly work at <strong><span>irro'</span>keys</strong> to develop technological solutions in relation to the needs of industry and companies in general. 
+           <br> Thanks to the transversal skills of our collaborators, we offer research & development work in the fields of:
+            
+        </p>
+       
+        
+       <div data-aos="zoom-in-up" >
+        <img data-aos="fade-right" src= "{% static 'images/puc.svg' %}" alt=""> 
+            <p>
+                 Industrial Robotics; Diagnosis; Fault Detection & Isolation; Supervision & Quality Control.
+                
+            </p>
+
+       </div>
+        
+      <div data-aos="zoom-in-up">
+
+        <img img data-aos="fade-right" src= "{% static 'images/puc.svg' %}" alt="">
+        <p>
+              Artificial Intelligence & Machine Learning; Data Mining & Data Analysis.
+            
+        </p>
+      </div>
+
+      <div data-aos="zoom-in-up">
+        <img src= "{% static 'images/puc.svg' %}" alt="">
+        <p img data-aos="fade-right">
+               Apps Development and Software Solutions for Industrial Applications
+            
+        </p>
+      </div>
+    
+</div>
+
+<div class="content_c3">
+
+    <div data-aos="fade-right" class="image_c">
+    <img src="{% static 'images/irrorobt.svg' %}" alt="">
+    </div>
+
+    <div data-aos="fade-left" class="image_c">
+        <img src="{% static 'images/irrodiag.svg' %}" alt="">
+    </div>
+
+    <div data-aos="fade-down" class="image_c">
+        <img src="{% static 'images/irrosmart.svg' %}" alt="">
+    </div>
+
+    <div data-aos="fade-down" class="image_c">
+        <img src="{% static 'images/irroapp.svg' %}" alt="">
+    </div>
+    
+
+</div>
+
+<div style="display: flex; width: 100vw;">
+    <button onclick="location.href='/solutions'"; href="{% url 'solutions' %}" data-aos="flip-right" class="learn_more">Learn more +</button>
+</div>
+
+   
+{% include 'website/founders.html' %}
+
+<section class="svgdown">
+  
+    
+    <div style="display: flex; padding-bottom: 7vh;">
+        <button data-aos="flip-down" onclick="location.href='/contact'"; href="{% url 'contact' %}" class="learn_more bigger">Contact us for more information</button> 
+      </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  <script type="text/javascript" src="{% static 'website/home.js' %}"> </script>  
+
+
+
+{% endblock %}

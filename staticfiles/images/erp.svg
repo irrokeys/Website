@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="486" height="486.129" viewBox="0 0 486 486.129">
+  <defs>
+    <filter id="Rectangle_149" x="0" y="0" width="486" height="352" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_14_1" data-name="Component 14 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_149)">
+      <g id="Rectangle_149-2" data-name="Rectangle 149" transform="translate(9 6)" fill="#fff" stroke="#fe0000" stroke-width="2">
+        <rect width="468" height="334" stroke="none"/>
+        <rect x="1" y="1" width="466" height="332" fill="none"/>
+      </g>
+    </g>
+    <text id="ERP" transform="translate(0 347)" font-size="60" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="200" y="63">ERP</tspan></text>
+    <text id="ERP-One" transform="translate(0 195.915)" font-size="40" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="150" y="42">ERP-One</tspan></text>
+    <text id="irro_keys" data-name="irro&apos;keys" transform="translate(25 424.129)" fill="#fdca00" font-size="40" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="150" y="42">irro&apos;</tspan><tspan y="42" fill="#000">keys</tspan></text>
+    <g id="stacked_bar_chart-24px" transform="translate(185.344 85.914)">
+      <path id="Path_92" data-name="Path 92" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_93" data-name="Path 93" d="M6,38.059H30.3v66.119H6ZM6,5H30.3V31.448H6ZM87.01,77.731h24.3v26.448H87.01Zm0-19.836h24.3V71.119H87.01Zm-40.505,0h24.3v46.283h-24.3Zm0-26.448h24.3V51.283h-24.3Z" fill="rgba(7,28,133,0.71)"/>
+    </g>
+  </g>
+</svg>

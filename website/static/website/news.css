@@ -1,0 +1,156 @@
+
+  :root {
+    --magnet: #736ED6;
+    --white: #ffffff;
+    --yellow: #FDCA00;
+    --gray: rgb(248,239,201,0.5);
+  }
+
+span{
+  color: var(--yellow);
+}
+h1{
+  font-size: 2rem !important;
+}
+
+.timeline {
+  display: grid;
+  height: fit-content;
+  margin-top: 5vh;
+  
+}
+
+  .timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 0.1vw;
+    height: 365vh;
+    background: var(--magnet);
+}
+
+
+.content {
+  padding: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+.timeline ul{
+  
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li{
+  list-style: none;
+  line-height: normal;
+  position: relative;
+  width: 50%;
+  padding-bottom: 10vh;
+  box-sizing:border-box ;
+
+}
+
+.timeline ul li:nth-child(even){
+  float: left;
+  clear: both;
+  text-align: right;
+}
+.timeline ul li:nth-child(odd){
+
+  float: right;
+  clear: both;
+  text-align: left;
+  
+}
+h4{
+  
+}
+
+.timeline ul li:nth-child(even)::before {
+  top: 4vh;
+  right: 0;
+  height: 2vh;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--magnet);
+  width: 2vh;
+  animation: point 4s infinite ease-in-out;
+}
+
+.timeline ul li:nth-child(odd)::before {
+  top: 4vh;
+  left: -2vh;
+  height: 2vh;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--magnet);
+  width: 2vh;
+  animation: point 4s infinite ease-in-out;
+}
+.timeline ul li:nth-child(even) div:nth-child(even) {
+  background: var(--magnet);
+  width: fit-content;
+  float: right;
+  margin-right: 4vh;
+  padding-right: 1vw;
+  height: fit-content;
+  color: white;
+  padding-left: 1vw;
+  border-radius: 6vh;
+  height: fit-content;
+}
+
+.timeline ul li:nth-child(odd) div:nth-child(even) {
+  background: var(--magnet);
+  width: fit-content;
+  float: left;
+  margin-left: 4vh;
+  padding-right: 1vw;
+  height: fit-content;
+  color: white;
+  padding-left: 1vw;
+  border-radius: 6vh;
+  height: fit-content;
+}
+.time h4{
+  margin: 1vh;
+}
+
+@keyframes point {
+  0% { box-shadow: 0 0 1vh var(--magnet); }
+  50% { box-shadow: 0 0 2vh 1vh var(--magnet);}
+  100% { box-shadow: 0 0 1vh var(--magnet); }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .timeline ul li {
+   width: fit-content;
+}
+.timeline:before {
+  display: none;
+}
+.timeline ul li:nth-child(odd)::before {
+  top: 3vh;
+  left: 3vw;
+
+}
+.timeline ul li:nth-child(even)::before {
+  top: 3vh;
+  left: 1vh;
+  
+
+}
+
+.timeline ul li:nth-child(even) {
+  float: left;
+  clear: both;
+  text-align: left;
+}
+}

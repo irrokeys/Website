@@ -1,0 +1,6 @@
+<svg onclick="location.href='/'"; href="{% url 'home' %}" id="Component_12_1" data-name="Component 12 – 1" xmlns="http://www.w3.org/2000/svg" width="316" height="85.531" viewBox="0 0 350 85.531">
+                    <rect width="32%" height="62%" fill="#ffde59" preserveAspectRatio="none" y="-3" />
+                      
+                      <text id="irro_keys" data-name="irro keys" transform="translate(6 43)" fill="#fefefe" font-size="3.5rem" font-family="Poppins-Bold, Poppins" font-weight="900"><tspan x="0" y="2" fill="#000">irro</tspan><tspan y="2" x= "105" xml:space="preserve" fill="#fefefe">keys</tspan></text>
+                      <text id="innovative_research_partner_in_new_technologies" data-name="innovative research partner in new technologies" transform="translate(0 55.531)" fill="#fff" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="500"><tspan x="0" y="13">innovative research partner in new technologies</tspan></text>
+                    </svg>

@@ -1,0 +1,14 @@
+<svg id="Component_12_1" data-name="Component 12 – 1" xmlns="http://www.w3.org/2000/svg" width="468" height="474.758" viewBox="0 0 468 474.758">
+  <g id="Rectangle_147" data-name="Rectangle 147" fill="#fff" stroke="#6762c4" stroke-width="2">
+    <rect width="468" height="334" stroke="none"/>
+    <rect x="1" y="1" width="466" height="332" fill="none"/>
+  </g>
+  <text id="Qualitex" transform="translate(0 347)" font-size="60" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="100" y="63">Qualitex</tspan></text>
+  <text id="irro_keys" data-name="irro&apos;keys" transform="translate(150 418.758)" fill="#fdca00" font-size="40" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="42">irro&apos;</tspan><tspan y="42" fill="#000">keys</tspan></text>
+  <text id="Q" transform="translate(143.083 236.814)" font-size="200" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Q</tspan></text>
+  <text id="x" transform="translate(262.083 54.814)" fill="#fdca00" font-size="60" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="27.86" y="63">x</tspan></text>
+  <g id="send-24px" transform="translate(310.659 146.834)">
+    <path id="Path_90" data-name="Path 90" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Path_91" data-name="Path 91" d="M2.028,50.7l59.4-23.851L2.028,3,2,21.551l42.446,5.3L2,32.151Z"/>
+  </g>
+</svg>

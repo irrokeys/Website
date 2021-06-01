@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Component_17_1888"
+   data-name="Component 17 – 1888"
+   width="320"
+   height="300"
+   viewBox="0 0 320 300"
+   version="1.1"
+   sodipodi:docname="grilling.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata859">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs857" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview855"
+     showgrid="false"
+     inkscape:zoom="2.7633333"
+     inkscape:cx="160"
+     inkscape:cy="150"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Component_17_1888" />
+  <g
+     id="g867">
+    <g
+       stroke-width="3"
+       stroke="#000000 "
+       fill="#fff"
+       data-name="Rectangle 146666"
+       id="Rectangle_146666">
+      <rect
+         id="rect844"
+         stroke="none"
+         height="300"
+         width="320" />
+      <rect
+         id="rect846"
+         fill="none"
+         height="299"
+         width="319"
+         y="0.5"
+         x="0.5" />
+    </g>
+    <text
+       style="font-weight:600;font-size:30px;font-family:Poppins-SemiBold, Poppins"
+       y="105.5"
+       x="134.77"
+       font-weight="600"
+       font-size="30"
+       data-name="grilling"
+       id="grilling">
+      <tspan
+         id="tspan849"
+         y="137.5"
+         x="24.77">Grilling process</tspan>
+      <tspan
+         id="tspan851"
+         y="183.5"
+         x="54.769997">automation</tspan>
+    </text>
+  </g>
+</svg>

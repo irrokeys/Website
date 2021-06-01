@@ -1,0 +1,54 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'website/contact.css' %}">
+<section class="content_c">
+    <div>
+        <div data-aos="fade-up">
+            <h1>Phone number</h1>
+            <p>+49 152 560 167 75</p>
+        </div>
+    
+    
+        <div data-aos="fade-up-right">
+            <h1>E-mails</h1>
+            <p>djebab.toufik@irrokeys.com</p>
+            <p>belkadi.adel@irrokeys.com</p>
+            <p>sales@irrokeys.de</p>
+        </div>
+    </div>
+
+    <div data-aos="fade-up-left">
+        <h1><span>></span> Social media</h1>
+        <a class="linkedin" target="_blank" href="https://www.linkedin.com/company/71269492"><img src="{% static 'images/LI-Logo.png' %}"   ></a>
+    
+    </div>
+
+    <h1 data-aos="fade-down"> <span>></span> Contact us </h1>
+    <p data-aos="fade-down">If you have any questions, please fill out the form below and we will answer you as soon as possible.</p>
+    <form method="post" >
+        {% csrf_token %}
+        
+        <div>
+            
+            <input placeholder="First name" onfocus="this.placeholder = ''"  type="text" name="first_name" maxlength="50" required="" id="id_first_name">
+            <input placeholder="Last name" onfocus="this.placeholder = ''" type="text" name="last_name" maxlength="50" required="" id="id_last_name">
+            <input placeholder="E-mail" onfocus="this.placeholder = ''" type="email" name="email_address" maxlength="150" required="" id="id_email_address">
+            <input placeholder="Phone number" onfocus="this.placeholder = ''" type="text" name="phone_number" maxlength="150" required="" id="phone_number">
+            {{ form.captcha }}
+        </div>
+            
+            <textarea placeholder="Enter your text Here" onfocus="this.placeholder = ''" name="message" cols="40" rows="10" maxlength="2000" required="" id="id_message"></textarea>
+            <button type="submit">Submit</button>
+           
+            <div> <input id ="consent" type="checkbox" required=""> <p>I have read and accepte <a href="https://www.privacypolicies.com/live/ce80813f-b6ed-4a54-aa62-bddf9b2438fb">the privacy policy</a></p></div>
+    </form>
+    
+    
+      
+ </section>
+
+ <script type="text/javascript" src="{% static 'website/contact.js' %}"> </script>  
+
+{% endblock %}

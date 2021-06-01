@@ -1,0 +1,35 @@
+{% extends "website/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'website/solutions.css' %}">
+<section class="content_c">
+    <h1 data-aos="fade-down">Our solutions</h1>
+    <p data-aos="fade-down">
+        At <strong><span >irro'</span>keys</strong>, we develop and offer software and 
+        hardware solutions in the fields of robotics, automation, 
+        AI, data processing, diagnostics and quality control).
+
+    </p>
+    <h1 data-aos="fade-up">Current projects</h1>
+    <div>
+        <img data-aos="fade-up" src="{% static 'images/qualitex.svg' %}" alt="">
+        <img data-aos="fade-up" src="{% static 'images/iotex.svg' %}" alt="">
+        <img data-aos="fade-up" src="{% static 'images/erp.svg' %}" alt="">
+    </div>
+    <h1 data-aos="fade-up">Our latest projects and experiences</h1>
+    <div class="slider">
+       <figure>
+        <img src="{% static 'images/autocontrol.png' %}" alt="">
+        <img src="{% static 'images/diagfaul.png' %}" alt="">
+        <img src="{% static 'images/multiagent.png' %}" alt="">
+        <img src="{% static 'images/production.png' %}" alt="">
+        <img src="{% static 'images/grilling.png' %}" alt="">
+       </figure>
+    </div>
+    <button onclick="location.href='/contact'"; href="{% url 'contact' %}" class="learn_more">Contact us for more information</button>
+   
+</section>
+
+<script type="text/javascript" src="{% static 'website/solutions.js' %}"> </script>  
+{% endblock %}

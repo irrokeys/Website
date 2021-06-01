@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Component_17_188"
+   data-name="Component 17 – 188"
+   width="320"
+   height="300"
+   viewBox="0 0 320 300"
+   version="1.1"
+   sodipodi:docname="production.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata847">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs845" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview843"
+     showgrid="false"
+     inkscape:zoom="2.7633333"
+     inkscape:cx="160"
+     inkscape:cy="150"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Component_17_188" />
+  <g
+     id="Rectangle_14666"
+     data-name="Rectangle 14666"
+     fill="#fff"
+     stroke="#736ED6"
+     stroke-width="3">
+    <rect
+       width="320"
+       height="300"
+       stroke="none"
+       id="rect832" />
+    <rect
+       x="0.5"
+       y="0.5"
+       width="319"
+       height="299"
+       fill="none"
+       id="rect834" />
+  </g>
+  <text
+     id="production_line"
+     data-name="production"
+     font-size="30"
+     font-weight="600"
+     x="134.35263"
+     y="101.15742"
+     style="font-weight:600;font-size:30px;font-family:Poppins-SemiBold, Poppins">
+    <tspan
+       x="61.052628"
+       y="133.15742"
+       id="tspan837">Production</tspan>
+    <tspan
+       x="13.957633"
+       y="179.15742"
+       id="tspan839">Line automation</tspan>
+  </text>
+</svg>
